@@ -4,7 +4,7 @@
   "description": "Đơn giản là  một con bot ngốck ngheesck",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "author": "nguyendinhat",
   "license": "MIT",
