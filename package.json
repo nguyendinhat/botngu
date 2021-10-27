@@ -2,9 +2,9 @@
   "name": "bot_ngu",
   "version": "1.0.0",
   "description": "Đơn giản là  một con bot ngốck ngheesck",
-  "main": "./src/index.js",
+  "main": ".index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node index.js"
   },
   "author": "nguyendinhat",
   "license": "MIT",

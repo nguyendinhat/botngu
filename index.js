@@ -1,6 +1,6 @@
 console.clear()
 const { Client, Intents, Collection } = require('discord.js');
-const { token } = require('./data/config.json');
+const { token } = require('./src/data/config.json');
 const { readdirSync } =  require('fs');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES]});
@@ -16,7 +16,7 @@ const commandFolders = readdirSync('./src/commands');
 
 (async() => {
 	for (file of functions) {
-		require(`./functions/${file}`)(client)
+		require(`./src/functions/${file}`)(client)
 	}
 })();
 
